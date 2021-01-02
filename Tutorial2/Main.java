@@ -4,15 +4,11 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		int a = 1;
-		int b = 2;
+		double b = 0.5;
+		int a = (int)(b+0.5);
+		System.out.println(a);
 		
-		System.out.println("a + b = " + (a+b));
-		System.out.println("a - b = " + (a-b));
-		System.out.println("a * b = " + (a*b));
-		System.out.println("a / b = " + (a/b));
-
-
+		
 	}
 
 }
