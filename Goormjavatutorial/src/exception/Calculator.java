@@ -11,7 +11,7 @@ public class Calculator {
 	}
 	public void divide() {
 		if(this.right == 0) {
-			throw new ArithmeticException("0으로 나누면 안돼요");
+			throw new ArithmeticException("0으로 나누면 안돼요!");
 		}
 		try {
 			System.out.print("계산결과:" + this.left/this.right);
